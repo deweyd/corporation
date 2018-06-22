@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; //позволяє не учитувати padding
+
+}
+html{
+  font-size: 100%;
+  color: #222222;
+  background-color: #f0f0f0;
+}
+body{
+  font-family: DINPro, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+.clearfix::after{ // header::after{content: ""; display: table; clear: both;}
+  content: "";
+  display: table;
+  clear: both;
+}
+
